@@ -1,5 +1,4 @@
 
-
 .topofpage {
     display: flex;
     flex-direction: column;
@@ -8,9 +7,9 @@
 
 .header {
     display: flex;
-    width: 100vw;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    gap: 535px;
 }
 
 .bottomofhead {
@@ -18,15 +17,41 @@
     justify-content: center;
     align-items: center;
     gap: 150px;
+    padding: 50px;
 }
 
 .bottomleft {
     width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    color: white;
+}
+
+.signup {
+    background-color: #ffd18c;
+    border-radius: 8px;
+    padding: 3px 20px;
+}
+
+.awesome {
+    margin: 0px;
+
+}
+
+.underawesome {
+    margin: 0px;
+    color: rgb(235, 235, 235);
 }
 
 .capygif {
     width: 400px;
     height: auto;
+}
+
+.ls-header {
+    color: white;
 }
 
 .rs-header {
@@ -38,12 +63,21 @@ ul {
     list-style: none;
     padding: 0px;
     margin: 0px;
+    color:rgb(235, 235, 235)
 }
 
 .topmiddle {
     display:flex;
     flex-direction: column;
     align-items: center;
+    padding: 50px;
+}
+
+.picstitle {
+    justify-self: flex-start;
+    margin: 0px;
+    margin-bottom: 40px;
+    font-weight: 900;
 }
 
 .picsection {
@@ -69,6 +103,7 @@ ul {
     font-size: 12px;
     text-align: center;
     margin: 0px;
+    color: rgb(54, 53, 53);
 }
 
 .middlebottom {
@@ -105,7 +140,6 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: dotted;
 }
 
 .popup {
@@ -120,6 +154,9 @@ ul {
 
 .leftside {
     margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
 
 .adoptnow {
@@ -131,6 +168,7 @@ ul {
 .adoptunder {
     font-size: 14px;
     color: white;
+    margin: 0px;
 }
 
 .abutton {
@@ -152,4 +190,11 @@ ul {
     color: white;
     font-size: 12px;
     font-weight: 700;
+}
+
+h1,
+h2,
+h3,
+p {
+    font-family: Arial, Helvetica, sans-serif;
 }
