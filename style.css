@@ -3,7 +3,7 @@
 .topofpage {
     display: flex;
     flex-direction: column;
-    background-color: #fcbe39;
+    background-color: #ff9900;
 }
 
 .header {
@@ -69,4 +69,87 @@ ul {
     font-size: 12px;
     text-align: center;
     margin: 0px;
+}
+
+.middlebottom {
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffd18c;
+}
+
+.quotesection {
+    height: 150px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+    gap: 5px;
+}
+
+.quote {
+    margin: 0px;
+    font-size: 20px;
+    font-weight: 0;
+}
+
+.person {
+    align-self:flex-end;
+    font-weight: 700;
+}
+
+.bottomtop {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: dotted;
+}
+
+.popup {
+    display: flex;
+    background-color: orange;
+    border-radius: 5px;
+    height: 100px;
+    width: 700px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.leftside {
+    margin-left: auto;
+}
+
+.adoptnow {
+    margin: 0px;
+    font-size: 18px;
+    color: white;
+}
+
+.adoptunder {
+    font-size: 14px;
+    color: white;
+}
+
+.abutton {
+    margin: 0px auto;
+    background-color: orange;
+    border-radius: 5px;
+    padding: 3px 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:50px;
+    background-color:#ff9900;
+}
+
+.fcomment {
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
 }
